@@ -1842,7 +1842,7 @@ input, select, textarea {
 		}
 
 		.box.style1 {
-			background: #fff;
+			background: #f2f7f3;
 			padding: 3em;
 		}
 
@@ -1852,15 +1852,22 @@ input, select, textarea {
 				top: 0;
 				width: 50%;
 				height: 100%;
-				background: #152E33;
+				background: #535754;
 				overflow: hidden;
+				vertical-align:middle;
 			}
 
 				.box.style1 .image img {
 					position: absolute;
+					right: 0;
+					left: 0;
 					top: 0;
-					height: 100%;
-					width: auto;
+					bottom: 0;
+					margin: auto auto;
+					/* height: 100%;
+					width: auto; */
+					height: auto;
+					width: 100%;
 				}
 
 			.box.style1 .inner > :last-child {

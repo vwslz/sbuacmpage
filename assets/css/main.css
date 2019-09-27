@@ -1487,7 +1487,7 @@ input, select, textarea {
 		display: inline-block;
 		border: 0;
 	}
-		
+
 		.image.logo {
 			width: 20%;
 		}
@@ -2654,4 +2654,16 @@ input, select, textarea {
 				opacity: 0.5;
 			}
 
+	}
+	
+	.text-white {
+		color: #fff;
+	}
+
+	.image-zoom-20 {
+		width: 20%;
+	}
+
+	.image-zoom-40 {
+		width: 40%;
 	}

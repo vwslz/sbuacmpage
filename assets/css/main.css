@@ -1856,7 +1856,7 @@ input, select, textarea {
 				top: 0;
 				width: 50%;
 				height: 100%;
-				background: #535754;
+				background: #fff;/*#535754;*/
 				overflow: hidden;
 				vertical-align:middle;
 			}

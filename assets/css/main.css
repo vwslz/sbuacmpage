@@ -2667,3 +2667,14 @@ input, select, textarea {
 	.image-zoom-40 {
 		width: 40%;
 	}
+
+	ul { 
+		display:table; 
+		margin:0 auto;
+		list-style-type: none;
+	}
+	li {
+    	margin: 0;
+    	padding: 0;
+	}
+

@@ -36,12 +36,24 @@
 				<header>
 					<h2>Who are we?</h2>
 				</header>
-				<p>
-					<!-- TODO: this is the description for our club. -->
-					<p>Stony Brook Competitive Programming Club is a place for anyone interested in algorithms and programming. We offer lectures on algorithmic problems solving, host speakers to discuss algorithms, and provide training sessions for our ACM ICPC teams.</p>
-				</p>
+				<div class="container">
+
+
+					<p>
+						<!-- TODO: this is the description for our club. -->
+						<p>Stony Brook Competitive Programming Club is a place for anyone interested in algorithms and programming. We offer lectures on algorithmic problems solving, host speakers to discuss algorithms, and provide training sessions for our ACM ICPC teams.</p>
+						<br>
+					</p>
+					<div class="video-responsive">
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/CMI8mFr9zco" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>
+				</div>
 				<footer>
 					<a href="#eventComing" class="button style2 scrolly">Upcoming Events</a>
+					<a href="#eventPassed" class="button style2 scrolly-middle">Recent Events</a>
+					<a href="#problemset" class="button style2 scrolly-middle">Problem Set</a>
+					<a href="#news" class="button style2 scrolly">News</a>
+					<a href="#members" class="button style2 scrolly">Members</a>
 				</footer>
 			</section>
 
@@ -52,10 +64,10 @@
 						<h2>Weekly Training Session for ACM ICPC Regional Teams</h2>
 					</header>
 					<p>
-						Location: NCS 115
+						Location: Zoom / Virtual
 					</p>
 					<p>
-						Time: 7 P.M. every Thursday
+						Time: 1 - 6 p.m. every Sat / Sun
 					</p>
 				</div>
 			</article>
@@ -68,17 +80,36 @@
 					</div>
 				</div>
 
-			<section>
+			<section id="eventPassed">
 				<div class="row row-content">
 		      <div class="col">
 		        <div id="mycarousel" class="carousel slide" data-ride="carousel">
 		          <div class="carousel-inner" role="listbox">
-		            <div class="carousel-item active">
+								<div class="carousel-item active">
+									<article id="event2" class="container box style1 right">
+										<a href="#" class="image fit"><img src="images/events/champion2020.jpg" alt="" /></a>
+										<div class="inner">
+											<header>
+												<h2>2020 SBU ACM ICPC SELECTION CONTEST</h2>
+											</header>
+											<p>
+												November 18th, 7 - 10:30 pm
+											</p>
+											<b>Champions</b><br>
+											Sumit Agarwal (Graduate Category)<br>
+											Andrew Burford (Senior Categoy)<br>
+											Kenny Zhang (Junior Category)<br>
+											Xiaokun Zhao (WiCS Choice Award)
+											<p><a href="https://www.hackerrank.com/contests/sbu-selection-2020/leaderboard">Ranklist</a></p>
+										</div>
+									</article>
+		            </div>
+		            <div class="carousel-item">
 									<article id="eventPassed" class="container box style1 right">
 										<a href="#" class="image fit"><img src="images/events/champion2019.jpg" alt="" /></a>
 										<div class="inner">
 											<header>
-												<h2>2019 SBU ACM ICPC Selection Contest</h2>
+												<h2>2019 SBU ACM ICPC SELECTION CONTEST</h2>
 											</header>
 											<p>
 												September 19th, 7 - 10:30 pm
@@ -102,20 +133,6 @@
 										</div>
 									</article>
 		            </div>
-<!-- 		            <div class="carousel-item">
-									<article id="event2" class="container box style1 right">
-										<a href="#" class="image fit"><img src="images/events/champion2019.jpg" alt="" /></a>
-										<div class="inner">
-											<header>
-												<h2>Practice Contest</h2>
-											</header>
-											<p>We have a practice contest coming up on September 12, 2019 in rooms Old CS 2120, 2129, 2114.
-						The contest will last from 7 PM to 9 PM for a 2-hour contest. Then, we will have a 15 minutes break, and 30 minute discussion. This will be a great opportunity to experience what the selection contest will be like.
-						Free food and drinks, sponsored by the SBU GSO and Google, co-hosted with WiCS.</p>
-											<p><a href="https://www.hackerrank.com/sbu-local-practice-contest-2019">Practice Contest Link</a></p>
-										</div>
-									</article>
-		            </div> -->
 	            </div>
 	            <a class="carousel-control-prev" href="#mycarousel" role="button" data-slide="prev">
 	              <span class="carousel-control-prev-icon"></span>
@@ -145,18 +162,26 @@
 				<!-- <ul> -->
 					<!-- <li> -->
 				<p align="center">
-					<a href="files/problemset-2019.pdf">2019 SBU ACM ICPC Selection Contest</a><br>
-					<a href="files/problemset-2018.pdf">2018 SBU ACM ICPC Selection Contest</a><br>
-					<a href="files/problemset-2017.pdf">2017 SBU ACM ICPC Selection Contest</a><br>
-					<a href="files/problemset-2016.pdf">2016 SBU ACM ICPC Selection Contest</a><br>
+					<a href="files/problemset-2020.pdf">2020 SBU ACM ICPC Selection Contest</a>
+					<br><font class="problem-setter"> Problem Setters: Zafar Ahmad, Haochen Chen, Allen Kim, Taras Kolomatski, Shawn Mathew, Jiarui Zhang, Yimin Zhu</font><br>
+					<a href="files/problemset-2019.pdf">2019 SBU ACM ICPC Selection Contest</a>
+					<br><font class="problem-setter"> Problem Setters: Zafar Ahmad, Haochen Chen, Rezaul Chowdhury, Allen Kim, Taras Kolomatski, Shawn Mathew, Jiarui Zhang</font><br>
+					<a href="files/problemset-2018.pdf">2018 SBU ACM ICPC Selection Contest</a>
+					<br><font class="problem-setter"> Problem Setters: Zafar Ahmad, Haochen Chen, Rezaul Chowdhury</font><br>
+					<a href="files/problemset-2017.pdf">2017 SBU ACM ICPC Selection Contest</a>
+					<br><font class="problem-setter"> Problem Setters: Zafar Ahmad, Haochen Chen, Rezaul Chowdhury, Yingtao Tian</font><br>
+					<a href="files/problemset-2016.pdf">2016 SBU ACM ICPC Selection Contest</a>
+					<br><font class="problem-setter"> Problem Setters: Zafar Ahmad, Haochen Chen, Rezaul Chowdhury, Yingtao Tian</font><br>
 					<a href="files/problemset-2015.pdf">2015 SBU ACM ICPC Selection Contest</a>
+					<br><font class="problem-setter"> Problem Setters: Haochen Chen, Rezaul Chowdhury, Yingtao Tian</font><br>
+
 				</p>
 				<!-- </li> -->
 				<!-- </ul>						 -->
 			</article>
 
 			<!-- Problem Set -->
-			<article id="problemset" class="container box style3">
+			<article id="news" class="container box style3">
 				<header>
 					<h2>News & Highlights</h2>
 				</header>
@@ -255,30 +280,32 @@
 				</header>
 				<div class="inner gallery">
 					<div class="row gtr-0">
-						<div class="col-3 col-12-mobile text-white"><a class="image fit"><img src="images/members/zafar.jpg" alt="" title="Zafar Ahmad" /></a>
-							<b>President</b><br>
-							<a target="_blank" href="https://www3.cs.stonybrook.edu/~zafahmad/" class="text-white">Zafar Ahmad</a>
-						</div>
 						<div class="col-3 col-12-mobile text-white"><a class="image fit"><img src="images/members/allen.jpg" alt="" title="Allen Kim" /></a>
-							<b>Vice-President</b><br>Allen Kim
+							<b>President</b><br>Allen Kim
 						</div>
 						<div class="col-3 col-12-mobile text-white"><a class="image fit"><img src="images/members/taras.jpg" alt="" title="Taras Kolomatski" /></a>
-							<b>Secretary</b><br>Taras Kolomatski
+							<b>Vice-President</b><br>Taras Kolomatski
 						</div>
-						<div class="col-3 col-12-mobile text-white"><a class="image fit"><img src="images/members/harsh.jpg" alt="" title="Harsh Ranjan" /></a>
-							<b>Treasurer</b><br>Harsh Ranjan
+						<div class="col-3 col-12-mobile text-white"><a class="image fit"><img src="images/members/yimin.jpg" alt="" title="Yimin Zhu" /></a>
+							<b>Secretary</b><br>
+							<b>Social Representative</b><br>
+							<a target="_blank" href="https://vwslz.github.io/index.html" class="text-white">Yimin Zhu</a>
+						</div>
+						<div class="col-3 col-12-mobile text-white"><a class="image fit"><img src="images/members/shawn.jpg" alt="" title="Shawn Mathew" /></a>
+							<b>Treasurer</b><br>Shawn Mathew
 						</div>
 					</div>
 					<div class="row gtr-0">
 						<div class="col-3 col-12-mobile text-white"><a class="image fit"><img src="images/members/jiarui.jpg" alt="" title="Jiarui Zhang" /></a>
 							<b>Executive Member</b><br>Jiarui Zhang
 						</div>
-						<div class="col-3 col-12-mobile text-white"><a class="image fit"><img src="images/members/shawn.jpg" alt="" title="Shawn Mathew" /></a>
-							<b>Executive Member</b><br>Shawn Mathew
+						<div class="col-3 col-12-mobile text-white"><a class="image fit"><img src="images/members/tanzir.jpg" alt="" title="Shawn Mathew" /></a>
+							<b>Executive Member</b><br>Tanzir Islan
 						</div>
-						<div class="col-3 col-12-mobile text-white"><a class="image fit"><img src="images/members/yimin.jpg" alt="" title="Yimin Zhu" /></a>
-							<b>Executive Member</b><br>
-							<a target="_blank" href="https://vwslz.github.io/vwslz/index.html" class="text-white">Yimin Zhu</a>
+						<div class="col-3 col-12-mobile text-white"><a class="image fit"><img src="images/members/zafar.jpg" alt="" title="Zafar Ahmad" /></a>
+							<b>Club Advisor</b><br>
+							<b>President 2017-2020</b><br>
+							<a target="_blank" href="https://www3.cs.stonybrook.edu/~zafahmad/" class="text-white">Zafar Ahmad</a>
 						</div>
 						<div class="col-3 col-12-mobile text-white"><a class="image fit"><img src="images/members/rezaul.jpg" alt="" title="Rezaul A. Chowdhury" /></a>
 							<b>Faculty Advisor</b><br>
@@ -299,6 +326,9 @@
 							<b>Former Vice-President</b><br>
 							<a target="_blank" href="https://gtmac.github.io/" class="text-white">Haochen Chen</a>
 						</div>
+						<div class="col-3 col-12-mobile text-white"><a class="image fit"><img src="images/members/harsh.jpg" alt="" title="Harsh Ranjan" /></a>
+							<b>Former Treasurer</b><br>Harsh Ranjan
+						</div>
 					</div>
 				</div>
 			</article>
@@ -318,10 +348,11 @@
 					</div>
 				</div> -->
 				<p class="centered">
-					<img class="image-zoom-40" src="images/sponsors/google.jpg" alt="" title="Google" />
+					<img class="image-zoom-35" src="images/sponsors/google.jpg" alt="" title="Google" />
 					<img class="image-zoom-20" src="images/sponsors/gso.png" alt="" title="GSO"/>
-					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-					<img class="image-zoom-20" src="images/sponsors/cs.jpg" alt="" title="Computer Science" />
+					&nbsp;&nbsp;
+					<img class="image-zoom-20" src="images/sponsors/cs.jpg" alt="" title="Computer Science"/>
+					<img class="image-zoom-20" src="images/sponsors/iacs.jpg" alt="" title="Computer Science"/>
 				</p>
 			</article>
 <!--
@@ -494,8 +525,10 @@
 		<section id="footer">
 			<ul class="icons">
 				<li><a href = "mailto: sbucompprog@gmail.com" target="_blank" class="icon brands"><i class="fas fa-envelope-square"></i></a></li>
-				<li><a href = "https://groups.google.com/a/cs.stonybrook.edu/d/forum/compprog" target="_blank" class="icon brands"><i class="fa fa-group"></i></a></li>
-				<li><a href="https://www.facebook.com/sbucompprog" target="_blank" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+				<li><a href = "https://groups.google.com/a/cs.stonybrook.edu/d/forum/compprog" target="_blank" class="icon brands"><i class="fas fa-users"></i></a></li>
+				<li><a href="https://www.facebook.com/sbucompprog" target="_blank" class="icon brands"><i class="fab fa-facebook"></i></a></li>
+				<li><a href="https://www.youtube.com/channel/UC8hlmm9j1E8BLLNwef_rLhg" target="_blank" class="icon brands"><i class="fab fa-youtube"></i></a></li>
+
 			</ul>
 			<div class="copyright">
 				<ul class="menu">

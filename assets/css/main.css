@@ -2751,3 +2751,7 @@ input, select, textarea {
 		font-size: 0.7em;
 
 	}
+
+#flyer {
+	width: 500px;
+}
